@@ -44,7 +44,16 @@ h1 {
   font-family: "Roboto", sans-serif; 
   margin-bottom: -8px;
  }
-
+.p-curso{
+  text-align: center;
+  font-size: 13px;
+  font-family:"Roboto", sans-serif;
+}
+@media (max-width: 412px ){
+  .p-curso{
+    font-size: 0.5rem;
+  }
+}
  .container-img-topo{
   filter: drop-shadow( 1px 1px 5px #00000056);
   text-align: center;
@@ -189,15 +198,15 @@ aside{
 } 
 
 .p-ul{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 17px;
-  margin-bottom: 0px;
+  font-family:"Roboto", sans-serif ;
+  margin-bottom: 5px;
 }
 ul{
   margin-top: 0px;
   color: #333333d7;
-  font-size: 16px;
-  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
+  padding-left: 25px;
+  font-family: "Roboto", sans-serif ;
 }
 
 
@@ -331,7 +340,7 @@ div{
   text-align:center;
   padding: 2px;
   position:relative;
-  margin-top: 35px;
+  margin-top: 20px;
   height: 96px;
 } 
 .normel{
@@ -379,6 +388,18 @@ div{
   text-decoration:dashed;
 }
 
+.p-fim{
+  text-align: center;
+  margin: auto;
+  color:#0044ff ;
+}
+
+@media (max-width: 440px){
+ .p-fim{
+  width: 340px ;
+  font-size: 0.7rem;
+ }
+}
 
 
  /*imagens dinamicas  */
