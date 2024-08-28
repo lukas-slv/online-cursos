@@ -65,9 +65,16 @@ h1 {
 
 .h3-text{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 50px;
-  margin-top:0px ;
+  margin-top: 1px;
   
+}
+.h3-text{
+  font-size: 1.5rem ;
+}
+@media (max-width: 510px) {
+  .h3-text{
+    font-size: 1rem;
+  }
 }
 
 .navbar {
@@ -228,9 +235,9 @@ article{
 h3{
   font-size: 1.5rem;
 }
-@media (max-width: 375px) {
+@media (max-width: 510px) {
   h3{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 .img-conteudo{
@@ -247,9 +254,10 @@ h3{
   font-size: 12px ;
 }
 
-@media(max-width: 375px) {
+@media(max-width: 500px) {
     .text-imgs{
-      width: 290px ;
+      width: 284px ;
+      font-size: 10px;
     }  
 }
   
@@ -280,14 +288,14 @@ article:hover > .links1 {
 }
 
 .pimg{
-  text-align:  justify;
+  text-align:left;
   display: inline-block;
   width: 247px;
   height: -1px;
   font-size: 14px;   
   font-weight: 520;
   margin-bottom: 28px;
-  margin-top: 0px;
+  margin-top: 15px;
 }
 .logo-curso  {
   display: inline;
