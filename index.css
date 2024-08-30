@@ -301,10 +301,10 @@ article:hover > .links1 {
 .pimg{
   text-align:left;
   display: inline-block;
+  font-family: "Nunito Sans", sans-serif ;
   width: 247px;
   height: -1px;
-  font-size: 14px;   
-  font-weight: 520;
+  font-size: 13px;
   margin-bottom: 28px;
   margin-top: 15px;
 }
