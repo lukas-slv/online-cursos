@@ -308,6 +308,12 @@ article:hover > .links1 {
   margin-bottom: 28px;
   margin-top: 15px;
 }
+@media(max-width: 550px){
+  .pimg{
+    text-align: center;
+  }
+}
+
 .logo-curso  {
   display: inline;
   float: left;
