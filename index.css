@@ -46,7 +46,7 @@ h1 {
  }
 .p-curso{
   text-align: center;
-  font-size: 13px;
+  font-size: 11px;
   font-family:"Roboto", sans-serif;
 }
 @media (max-width: 412px ){
@@ -234,7 +234,9 @@ article{
 
  article > h3{
   color: #1C0051;
-  padding: 2px 1px ;
+  font-family:"Roboto", sans-serif;
+  text-shadow: 1px 1px  8px #2f2f3081;
+  padding: 1px 1px ;
   border-radius: 20px;
   display: inline-block;
   margin: 10px auto;
@@ -265,7 +267,7 @@ h3{
 
 @media(max-width: 500px) {
     .text-imgs{
-      width: 284px ;
+      width: 290px ;
       font-size: 10px;
     }  
 }

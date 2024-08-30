@@ -59,29 +59,20 @@ p{
 .playlist-link{
   background-color: rgba(0, 255, 136, 0.993);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #474747;
-  display: block;
-  text-align: center;
-   
+  display: flex;
+  justify-content:center;
   width: 200px;
   height: 30px;
   border-radius: 20px;
-  margin: auto;
-  padding-top: 7px ;
+  padding-top: 7px;
    
  }
 .playlist-link:hover {
     box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
-    color: #474747af;
+    color: #08007580;
      transform: scale(0.9);
      transition-duration: .5s;
 }
-.link-botao{
-    display: flex;
-    text-decoration: none;
-    
-}
-  
 .playlist-link{
   width:230px ; 
   }
@@ -89,8 +80,7 @@ p{
     .playlist-link{
       width: 180px;
     }  
-}
-  
+} 
 .playlist-link:hover{
     transform: scale(0.9);
     }
@@ -99,3 +89,13 @@ p{
       width: 190px;
     }
 } 
+
+.link-botao{
+  text-decoration: none;
+  display: flex;
+  justify-content:center;
+  width: 230px;
+  margin: auto;
+
+}
+  
