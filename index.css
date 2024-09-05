@@ -72,6 +72,7 @@ h1 {
 }
 @media (max-width: 380px){
   .h2-topo{
+    margin-top: 20px ;
     font-size: 18px;
     
   }
