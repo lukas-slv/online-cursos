@@ -65,7 +65,7 @@ h1 {
  }
  
 .h2-topo{
-  color:rgba(7, 7, 179, 0.816);
+  color:rgba(75, 75, 255, 0.816);
   margin: 50px 0px 20px ;
   font-family:  "Roboto", sans-serif;
   font-size: 33px;
@@ -73,7 +73,7 @@ h1 {
 @media (max-width: 375px){
   .h2-topo{
     font-size: 22px;
-    width: 320px;
+    
   }
 }
 
