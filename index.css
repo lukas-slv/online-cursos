@@ -70,9 +70,9 @@ h1 {
   font-family:  "Roboto", sans-serif;
   font-size: 33px;
 }
-@media (max-width: 375px){
+@media (max-width: 380px){
   .h2-topo{
-    font-size: 17px;
+    font-size: 18px;
     
   }
 }
