@@ -100,27 +100,21 @@ h1 {
 }
 
 .nav-item {
-  
   font-size: 15px;
   color: #1C0051;
   margin: 0 15px;
   text-decoration: none;   
   transition-duration: .5s;
 }
-
 .nav-item:hover {
   color: rgba(0, 81, 255, 0.747);
-  
 }
+
 
 .logo-menu-container {
   display: flex;
   align-items: center;
   padding-bottom: 3px;
-}
-
-.lodo-curso {
-  margin-right: 20px; /* Ajuste a margem conforme necessário */
 }
 
 .right-container {
@@ -150,8 +144,7 @@ h1 {
   .nav-links {
    display: none; /* Oculta os links de navegação em telas pequenas */
   }
-
- .menu-toggle {
+.menu-toggle {
     display: flex; /* Exibe o ícone de menu "hamburger" */    
     flex-direction: column;
     margin-right: 15px;
