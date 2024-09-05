@@ -4,11 +4,20 @@
 
 
 .h2-topo{
-    color:#0707b3d0;
+    color:hsla(240, 92%, 36%, 0.816);
     margin: 0px 0px 20px ;
     font-family:  "Roboto", sans-serif;
-    font-size: clamp(1rem, 0.3043rem + 4.783vw, 1.9rem);
 }
+.h2-topo{
+  font-size: 2.3rem;
+}
+@media (max-width: 510px){
+  .h2-topo{
+    font-size: 2rem;
+  }
+}
+
+
 .p-curso{
     text-align: center;
     font-family:"Nunito Sans", sans-serif ; 
@@ -98,4 +107,13 @@ p{
   margin: auto;
 
 }
-  
+
+ul{
+  font-family:"Roboto", sans-serif ;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  color: #333333;
+  font-size: 14px;
+  padding-left: 23px;
+  font-family: "Roboto", sans-serif ;
+}  
