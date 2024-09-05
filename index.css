@@ -68,13 +68,12 @@ h1 {
   color:rgba(7, 7, 179, 0.816);
   margin: 50px 0px 20px ;
   font-family:  "Roboto", sans-serif;
+  font-size: 33px;
 }
-.h2-topo{
-  font-size: 2.3rem;
-}
-@media (max-width: 510px){
+@media (max-width: 375px){
   .h2-topo{
-    font-size: 2rem;
+    font-size: 25px;
+    width: 320px;
   }
 }
 

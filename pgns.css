@@ -7,13 +7,13 @@
     color:hsla(240, 92%, 36%, 0.816);
     margin: 0px 0px 20px ;
     font-family:  "Roboto", sans-serif;
+    font-size: 33px;
 }
-.h2-topo{
-  font-size: 2.3rem;
-}
-@media (max-width: 510px){
+
+@media (max-width: 375px){
   .h2-topo{
-    font-size: 2rem;
+    font-size: 25px;
+    width: 320px;
   }
 }
 
