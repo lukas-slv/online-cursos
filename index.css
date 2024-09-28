@@ -188,7 +188,7 @@ main{
   min-width: 300px;
   max-width: 1100px;
   margin: 22px auto;
-  padding:27pX 20px 0pX;
+  padding:27px 20px 0px;
   background-color: rgba(238, 251, 252);
   
 }
@@ -221,7 +221,8 @@ ul{
 }
 .article01 {
   max-width: 588px;
-  margin-top: 10px  ;
+  display: flex;
+  flex-direction:column;
   padding: -1px 10px;
   border-radius: 6px;
   background-color: rgb(188, 216, 231);
@@ -263,7 +264,8 @@ h3{
   text-align: center;
   width: 499px;
   margin-top: 10px;
-  font-size: 12px ;
+  margin-bottom: 10px;
+  font-size: 12px;
 }
 
 @media(max-width: 500px) {
