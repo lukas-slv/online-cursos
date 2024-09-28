@@ -68,12 +68,12 @@ p{
   background-color: rgba(0, 255, 136, 0.993);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: flex;
+  color: rgba(35, 50, 189, 0.74);
   justify-content:center;
-  width: 200px;
   height: 30px;
+  width: 170px;
   border-radius: 20px;
   padding-top: 7px;
-   
  }
 .playlist-link:hover {
     box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
@@ -81,12 +81,10 @@ p{
      transform: scale(0.9);
      transition-duration: .5s;
 }
-.playlist-link{
-  width:230px ; 
-  }
+
     @media( max-width: 520px ){
     .playlist-link{
-      width: 180px;
+      width: 160px;
     }  
 } 
 .playlist-link:hover{
