@@ -22,18 +22,18 @@ nav{
 } 
 
 h1 {
-  font-size: 3.5rem; /* Tamanho padrão para telas grandes */
+  font-size: 3.9rem; /* Tamanho padrão para telas grandes */
 }
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 3rem; /* Tamanho para telas médias */
+    font-size: 2.5rem; /* Tamanho para telas médias */
   }
 }
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 1.9rem; /* Tamanho para telas pequenas */
+    font-size: 2.0rem; /* Tamanho para telas pequenas */
   }
 }
 
@@ -66,14 +66,15 @@ h1 {
  
 .h2-topo{
   color:rgba(7, 7, 176, 0.816);
-  margin: 50px 0px 20px ;
+  margin: 30px 0px 20px ;
   font-family:  "Roboto", sans-serif;
-  font-size: 33px;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 @media (max-width: 380px){
   .h2-topo{
     margin-top: 15px ;
-    font-size: 16px;
+    font-size: 1.2rem;
     
   }
 }
@@ -223,6 +224,7 @@ ul{
   padding: -1px 10px;
   border-radius: 6px;
   background-color: rgb(188, 216, 231);
+  box-shadow: 3px 3px 10px #2f2f3081;
 }
 
 article{
