@@ -5,16 +5,16 @@
 .h2-topo{
     color:rgba(7, 7, 176, 0.816);
     margin: 0px 0px 20px ;
-    font-family:  "Mulish", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-size: 2rem;
 }
 
-@media (max-width: 380px){
-  .h2-topo{
-    font-size: 1rem;
-    
+  @media (max-width: 380px){
+    .h2-topo{
+      font-size: 1rem;
+      
+    }
   }
-}
 
 .p-curso{
     text-align: center;
